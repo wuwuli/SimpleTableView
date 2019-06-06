@@ -15,6 +15,16 @@
 		16086B1B229F822B001431D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16086B1A229F822B001431D4 /* main.m */; };
 		16086B25229F822B001431D4 /* SimpleTableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16086B24229F822B001431D4 /* SimpleTableViewControllerTests.m */; };
 		16086B30229F822B001431D4 /* SimpleTableViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16086B2F229F822B001431D4 /* SimpleTableViewControllerUITests.m */; };
+		16086B44229F82A6001431D4 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16086B43229F82A6001431D4 /* MainView.m */; };
+		16086B47229F86DE001431D4 /* MainViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 16086B46229F86DE001431D4 /* MainViewModel.m */; };
+		16086B4A229F8BBB001431D4 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16086B49229F8BBA001431D4 /* MainTableViewCell.m */; };
+		16086B4D229FA966001431D4 /* MainTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 16086B4C229FA966001431D4 /* MainTableModel.m */; };
+		16086B4F229FAC54001431D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16086B4E229FAC54001431D4 /* CoreGraphics.framework */; };
+		16D6E38F22A8AC9B00ECC0D6 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D6E38E22A8AC9B00ECC0D6 /* UIView+Category.m */; };
+		16D6E39222A8B12200ECC0D6 /* UIButton+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D6E39022A8B12200ECC0D6 /* UIButton+Category.m */; };
+		16D6E39522A8B58600ECC0D6 /* MainTableContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D6E39422A8B58600ECC0D6 /* MainTableContentCell.m */; };
+		16D6E39822A8B88F00ECC0D6 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D6E39722A8B88F00ECC0D6 /* BaseTableViewCell.m */; };
+		D0D546278A746B5A6405D294 /* libPods-SimpleTableViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEC1948C5DB1E9465A80A26 /* libPods-SimpleTableViewController.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,27 @@
 		16086B2B229F822B001431D4 /* SimpleTableViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTableViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16086B2F229F822B001431D4 /* SimpleTableViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableViewControllerUITests.m; sourceTree = "<group>"; };
 		16086B31229F822B001431D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16086B42229F82A6001431D4 /* MainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		16086B43229F82A6001431D4 /* MainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		16086B45229F86DE001431D4 /* MainViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewModel.h; sourceTree = "<group>"; };
+		16086B46229F86DE001431D4 /* MainViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewModel.m; sourceTree = "<group>"; };
+		16086B48229F8BBA001431D4 /* MainTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		16086B49229F8BBA001431D4 /* MainTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		16086B4B229FA966001431D4 /* MainTableModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableModel.h; sourceTree = "<group>"; };
+		16086B4C229FA966001431D4 /* MainTableModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableModel.m; sourceTree = "<group>"; };
+		16086B4E229FAC54001431D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		16D6E38A22A8AB8600ECC0D6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		16D6E38D22A8AC9B00ECC0D6 /* UIView+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		16D6E38E22A8AC9B00ECC0D6 /* UIView+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		16D6E39022A8B12200ECC0D6 /* UIButton+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Category.m"; sourceTree = "<group>"; };
+		16D6E39122A8B12200ECC0D6 /* UIButton+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Category.h"; sourceTree = "<group>"; };
+		16D6E39322A8B58600ECC0D6 /* MainTableContentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableContentCell.h; sourceTree = "<group>"; };
+		16D6E39422A8B58600ECC0D6 /* MainTableContentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableContentCell.m; sourceTree = "<group>"; };
+		16D6E39622A8B88E00ECC0D6 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		16D6E39722A8B88F00ECC0D6 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		3FEC1948C5DB1E9465A80A26 /* libPods-SimpleTableViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleTableViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4668E1EC5E74C1348E88D4 /* Pods-SimpleTableViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTableViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTableViewController/Pods-SimpleTableViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		A0603C058A3F2322F402E821 /* Pods-SimpleTableViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTableViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTableViewController/Pods-SimpleTableViewController.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16086B4F229FAC54001431D4 /* CoreGraphics.framework in Frameworks */,
+				D0D546278A746B5A6405D294 /* libPods-SimpleTableViewController.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +118,8 @@
 				16086B23229F822B001431D4 /* SimpleTableViewControllerTests */,
 				16086B2E229F822B001431D4 /* SimpleTableViewControllerUITests */,
 				16086B09229F8229001431D4 /* Products */,
+				7906C53FB3AB8F8EAA19EC38 /* Pods */,
+				86CB5B982519C059F8A1B932 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +136,9 @@
 		16086B0A229F8229001431D4 /* SimpleTableViewController */ = {
 			isa = PBXGroup;
 			children = (
-				16086B0B229F8229001431D4 /* AppDelegate.h */,
-				16086B0C229F8229001431D4 /* AppDelegate.m */,
-				16086B0E229F8229001431D4 /* ViewController.h */,
-				16086B0F229F8229001431D4 /* ViewController.m */,
+				16D6E38B22A8AC6F00ECC0D6 /* Common */,
+				16D6E38922A8AB6D00ECC0D6 /* Main */,
+				16086B3D229F8259001431D4 /* Class */,
 				16086B11229F8229001431D4 /* Main.storyboard */,
 				16086B14229F822B001431D4 /* Assets.xcassets */,
 				16086B16229F822B001431D4 /* LaunchScreen.storyboard */,
@@ -132,6 +166,106 @@
 			path = SimpleTableViewControllerUITests;
 			sourceTree = "<group>";
 		};
+		16086B3D229F8259001431D4 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				16086B41229F827F001431D4 /* Model */,
+				16086B40229F8278001431D4 /* ViewModel */,
+				16086B3F229F8272001431D4 /* View */,
+				16086B3E229F8267001431D4 /* Controller */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		16086B3E229F8267001431D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				16086B0E229F8229001431D4 /* ViewController.h */,
+				16086B0F229F8229001431D4 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		16086B3F229F8272001431D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				16D6E39622A8B88E00ECC0D6 /* BaseTableViewCell.h */,
+				16D6E39722A8B88F00ECC0D6 /* BaseTableViewCell.m */,
+				16086B42229F82A6001431D4 /* MainView.h */,
+				16086B43229F82A6001431D4 /* MainView.m */,
+				16086B48229F8BBA001431D4 /* MainTableViewCell.h */,
+				16086B49229F8BBA001431D4 /* MainTableViewCell.m */,
+				16D6E39322A8B58600ECC0D6 /* MainTableContentCell.h */,
+				16D6E39422A8B58600ECC0D6 /* MainTableContentCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		16086B40229F8278001431D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				16086B45229F86DE001431D4 /* MainViewModel.h */,
+				16086B46229F86DE001431D4 /* MainViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		16086B41229F827F001431D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16086B4B229FA966001431D4 /* MainTableModel.h */,
+				16086B4C229FA966001431D4 /* MainTableModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16D6E38922A8AB6D00ECC0D6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				16086B0B229F8229001431D4 /* AppDelegate.h */,
+				16086B0C229F8229001431D4 /* AppDelegate.m */,
+				16D6E38A22A8AB8600ECC0D6 /* PrefixHeader.pch */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		16D6E38B22A8AC6F00ECC0D6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				16D6E38C22A8AC7A00ECC0D6 /* Category */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		16D6E38C22A8AC7A00ECC0D6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				16D6E39122A8B12200ECC0D6 /* UIButton+Category.h */,
+				16D6E39022A8B12200ECC0D6 /* UIButton+Category.m */,
+				16D6E38D22A8AC9B00ECC0D6 /* UIView+Category.h */,
+				16D6E38E22A8AC9B00ECC0D6 /* UIView+Category.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7906C53FB3AB8F8EAA19EC38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C4668E1EC5E74C1348E88D4 /* Pods-SimpleTableViewController.debug.xcconfig */,
+				A0603C058A3F2322F402E821 /* Pods-SimpleTableViewController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		86CB5B982519C059F8A1B932 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16086B4E229FAC54001431D4 /* CoreGraphics.framework */,
+				3FEC1948C5DB1E9465A80A26 /* libPods-SimpleTableViewController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +273,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16086B34229F822B001431D4 /* Build configuration list for PBXNativeTarget "SimpleTableViewController" */;
 			buildPhases = (
+				5A2DF608B9066F340152D8BB /* [CP] Check Pods Manifest.lock */,
 				16086B04229F8229001431D4 /* Sources */,
 				16086B05229F8229001431D4 /* Frameworks */,
 				16086B06229F8229001431D4 /* Resources */,
@@ -257,14 +392,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A2DF608B9066F340152D8BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleTableViewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		16086B04229F8229001431D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16086B4A229F8BBB001431D4 /* MainTableViewCell.m in Sources */,
 				16086B10229F8229001431D4 /* ViewController.m in Sources */,
+				16086B44229F82A6001431D4 /* MainView.m in Sources */,
+				16D6E39822A8B88F00ECC0D6 /* BaseTableViewCell.m in Sources */,
+				16D6E39222A8B12200ECC0D6 /* UIButton+Category.m in Sources */,
 				16086B1B229F822B001431D4 /* main.m in Sources */,
+				16D6E39522A8B58600ECC0D6 /* MainTableContentCell.m in Sources */,
+				16086B47229F86DE001431D4 /* MainViewModel.m in Sources */,
 				16086B0D229F8229001431D4 /* AppDelegate.m in Sources */,
+				16D6E38F22A8AC9B00ECC0D6 /* UIView+Category.m in Sources */,
+				16086B4D229FA966001431D4 /* MainTableModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,9 +597,11 @@
 		};
 		16086B35229F822B001431D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C4668E1EC5E74C1348E88D4 /* Pods-SimpleTableViewController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SimpleTableViewController/Main/PrefixHeader.pch";
 				INFOPLIST_FILE = SimpleTableViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +615,11 @@
 		};
 		16086B36229F822B001431D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0603C058A3F2322F402E821 /* Pods-SimpleTableViewController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SimpleTableViewController/Main/PrefixHeader.pch";
 				INFOPLIST_FILE = SimpleTableViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  SimpleTableViewController
+//
+//  Created by 吴紫颖 on 2019/6/6.
+//  Copyright © 2019 吴紫颖. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+#import <Masonry.h>
+#import <MJExtension/MJExtension.h>
+#import <JYUtils/JYUtils.h>
+
+#import "UIView+Category.h"
+#import "UIButton+Category.h"
+
+#import "BaseTableViewCell.h"
+
+
+#define kRGBAlpha(r, g, b, a) [UIColor colorWithRed:((r) / 255.0) green:((g) / 255.0) blue:((b) / 255.0) alpha:(a)]
+
+#define WeakSelf __weak typeof(self) weakSelf = self;
+
+
+
+#endif /* PrefixHeader_pch */
